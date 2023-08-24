@@ -1,7 +1,7 @@
 module bram
 	#(
 		parameter RAM_WIDTH 		= 16,
-		parameter RAM_ADDR_BITS 	= 17,
+		parameter RAM_ADDR_BITS 	= 16,
 		parameter DATA_FILE 		= "data_file.txt",
 		parameter INIT_START_ADDR 	= 0,
 		parameter INIT_END_ADDR		= 65536
